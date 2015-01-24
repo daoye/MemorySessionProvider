@@ -8,7 +8,6 @@
 
 2. 在web.config中做如下配置：
 
-
 	<system.web>
 	  <sessionState timeout="20" mode="Custom" customProvider="MemorySessionProvider">
 		<providers>
@@ -16,7 +15,6 @@
 		</providers>
 	  </sessionState>
 	</system.web> 
-
 
 =================================
 
