@@ -7,7 +7,6 @@
 1. 添加程序集引用
 
 2. 在web.config中做如下配置：
-
     <system.web>
       <sessionState timeout="20" mode="Custom" customProvider="MemorySessionProvider">
         <providers>
@@ -25,7 +24,6 @@ Usage:
 1. Add the assembly reference.
 
 2. Add this configuration in web.config:
-
     <system.web>
       <sessionState timeout="20" mode="Custom" customProvider="MemorySessionProvider">
         <providers>
