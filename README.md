@@ -8,13 +8,13 @@
 
 2. 在web.config中做如下配置：
 
-	<system.web>
-	  <sessionState timeout="20" mode="Custom" customProvider="MemorySessionProvider">
-		<providers>
-		  <add name="MemorySessionProvider" type="MemorySessionProvider.SessionProvider,MemorySessionProvider"/>
-		</providers>
-	  </sessionState>
-	</system.web> 
+    <system.web>
+      <sessionState timeout="20" mode="Custom" customProvider="MemorySessionProvider">
+        <providers>
+          <add name="MemorySessionProvider" type="MemorySessionProvider.SessionProvider,MemorySessionProvider"/>
+        </providers>
+      </sessionState>
+    </system.web> 
 
 =================================
 
@@ -26,10 +26,10 @@ Usage:
 
 2. Add this configuration in web.config:
 
-	<system.web>
-	  <sessionState timeout="20" mode="Custom" customProvider="MemorySessionProvider">
-		<providers>
-		  <add name="MemorySessionProvider" type="MemorySessionProvider.SessionProvider,MemorySessionProvider"/>
-		</providers>
-	  </sessionState>
-	</system.web> 
+    <system.web>
+      <sessionState timeout="20" mode="Custom" customProvider="MemorySessionProvider">
+        <providers>
+          <add name="MemorySessionProvider" type="MemorySessionProvider.SessionProvider,MemorySessionProvider"/>
+        </providers>
+      </sessionState>
+    </system.web> 
