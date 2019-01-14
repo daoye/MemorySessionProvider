@@ -1,6 +1,6 @@
 # MemorySessionProvider
 
-自定义ASP.NET Session 会话存储程序，可以解决Session频繁丢失的问题，而又没有性能影响。
+自定义的ASP.NET Session 会话存储程序，在不影响性能的情况下（使用Memorycache存储会话信息），解决Session丢失的问题（在session超时之前就丢失）。
 
 使用方法：
 
